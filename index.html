@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>五子棋</title>
+	<style>
+		canvas{
+			display: block;
+			margin: 50px auto;
+			box-shadow: -2px -2px 2px #ddd,5px 5px 5px #ccc; 
+		}
+		#check{
+			text-align: center;
+		}
+		#reload{
+			position: absolute;
+			top: 600px;
+			left: 47%
+		}
+	</style>
+</head>
+<body>
+	<header><h1 id="check">五子棋</h1></header>
+	<canvas id="chess" width="450px" height="450px"></canvas>
+	<script src="chess.js"></script>
+	<button id="reload" onclick="location.reload()">重新开始</button>
+</body>
+</html>
